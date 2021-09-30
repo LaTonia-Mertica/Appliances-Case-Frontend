@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Appliances-Case-Frontend/static/css/main.0c1975a2.chunk.css",
+    "main.js": "/Appliances-Case-Frontend/static/js/main.910654e4.chunk.js",
+    "main.js.map": "/Appliances-Case-Frontend/static/js/main.910654e4.chunk.js.map",
+    "runtime-main.js": "/Appliances-Case-Frontend/static/js/runtime-main.195b0766.js",
+    "runtime-main.js.map": "/Appliances-Case-Frontend/static/js/runtime-main.195b0766.js.map",
+    "static/js/2.350b9e25.chunk.js": "/Appliances-Case-Frontend/static/js/2.350b9e25.chunk.js",
+    "static/js/2.350b9e25.chunk.js.map": "/Appliances-Case-Frontend/static/js/2.350b9e25.chunk.js.map",
+    "static/js/3.1bf4e037.chunk.js": "/Appliances-Case-Frontend/static/js/3.1bf4e037.chunk.js",
+    "static/js/3.1bf4e037.chunk.js.map": "/Appliances-Case-Frontend/static/js/3.1bf4e037.chunk.js.map",
+    "index.html": "/Appliances-Case-Frontend/index.html",
+    "static/css/main.0c1975a2.chunk.css.map": "/Appliances-Case-Frontend/static/css/main.0c1975a2.chunk.css.map",
+    "static/js/2.350b9e25.chunk.js.LICENSE.txt": "/Appliances-Case-Frontend/static/js/2.350b9e25.chunk.js.LICENSE.txt",
+    "static/media/blender.0a20e35f.png": "/Appliances-Case-Frontend/static/media/blender.0a20e35f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.195b0766.js",
+    "static/js/2.350b9e25.chunk.js",
+    "static/css/main.0c1975a2.chunk.css",
+    "static/js/main.910654e4.chunk.js"
+  ]
+}
