@@ -1,0 +1,23 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  letter-spacing: 1.3px;
+}
+
+.form-label,
+#nameSearchText {
+  font-size: small;
+}
+
+.list-group-item {
+  font-size: medium;
+  border-color: black;
+}
+
+.customers {
+  color: #0275d8;
+}
+
+a {
+  text-decoration: none !important;
+}
