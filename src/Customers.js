@@ -14,7 +14,7 @@ const Customers = () => {
   useEffect(() => {
     (async () => {
       const response = await fetch(
-        `http://localhost:3001/customers/${currentPageNum}`,
+        `https://appliances-case.herokuapp.com/customers/${currentPageNum}`,
         {
           method: "GET",
           headers: {
@@ -57,15 +57,18 @@ const Customers = () => {
     } else if (formData.phoneNumber.length < 10) {
       alert("Seriously dude, add in on your phone number.");
     } else {
-      const response = await fetch(`http://localhost:3001/customers`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          email: localStorage.email,
-          password: localStorage.password,
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        `https://appliances-case.herokuapp.com/customers`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            email: localStorage.email,
+            password: localStorage.password,
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       const data = await response.json();
 
@@ -121,13 +124,16 @@ const Customers = () => {
   //BACK END SEARCH
   const searchNames = async (event) => {
     event.preventDefault();
-    const response = await fetch(`http://localhost:3001/customersSearch`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ searchQuery: searchInput }),
-    });
+    const response = await fetch(
+      `https://appliances-case.herokuapp.com/customersSearch`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ searchQuery: searchInput }),
+      }
+    );
     const data = await response.json();
     setCustomers(data.customers);
   };

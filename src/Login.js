@@ -7,14 +7,17 @@ const Login = () => {
     const email = event.target.email.value;
     const password = event.target.password.value;
 
-    const response = await fetch(`http://localhost:3001/login`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        email,
-        password,
-      },
-    });
+    const response = await fetch(
+      `https://appliances-case.herokuapp.com/login`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          email,
+          password,
+        },
+      }
+    );
 
     const data = await response.json();
     console.log(data);
