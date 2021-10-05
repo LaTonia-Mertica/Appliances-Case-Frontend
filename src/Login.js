@@ -26,7 +26,7 @@ const Login = () => {
     } else if (data.success) {
       localStorage.email = email;
       localStorage.password = password;
-      window.location = "/customers";
+      window.location = "./customers";
     }
   };
 
