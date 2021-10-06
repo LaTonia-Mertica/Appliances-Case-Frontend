@@ -1,6 +1,7 @@
 import blender from "./images/blender.png";
-
+import { useHistory } from "react-router-dom";
 const Sidebar = () => {
+  const history = useHistory();
   return (
     <div
       style={{
@@ -27,7 +28,7 @@ const Sidebar = () => {
           onClick={() => {
             delete localStorage.password;
             delete localStorage.email;
-            window.location = "/";
+            history.push("./");
           }}
         >
           LOG OUT
