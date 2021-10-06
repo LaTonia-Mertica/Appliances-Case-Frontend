@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import { useHistory } from "react-router-dom";
 
 const Login = () => {
+  const history = useHistory();
   const loginButtonClicked = async (event) => {
     event.preventDefault();
     const email = event.target.email.value;
@@ -26,7 +28,7 @@ const Login = () => {
     } else if (data.success) {
       localStorage.email = email;
       localStorage.password = password;
-      window.location = "./customers";
+      history.push("./customers");
     }
   };
 
