@@ -40,7 +40,7 @@ const Sidebar = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <p style={{ paddingTop: 50, color: "#000000" }}>
+        <p style={{ paddingTop: 50, color: "#000000" }} id="adParagraph">
           <span
             style={{
               marginLeft: 25,

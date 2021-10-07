@@ -21,3 +21,14 @@ body {
 a {
   text-decoration: none !important;
 }
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 670px) {
+  #adParagraph {
+    display: none;
+  }
+  li.list-group-item.customers,
+  li.list-group-item {
+    font-size: smaller;
+  }
+}
