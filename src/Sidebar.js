@@ -30,6 +30,7 @@ const Sidebar = () => {
             delete localStorage.email;
             history.push("./");
           }}
+          id="logoutBtn"
         >
           LOG OUT
         </li>
