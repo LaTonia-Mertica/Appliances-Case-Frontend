@@ -53,21 +53,33 @@ const Login = () => {
                   htmlFor="exampleInputEmail"
                   className="form-label"
                   style={{ color: "#0275d8", fontWeight: 900 }}
+                  title="type in testymctesterson@gmail.com"
                 >
-                  email address
+                  email
                 </label>
-                <input type="email" className="form-control" id="email" />
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  title="type in testymctesterson@gmail.com"
+                />
               </div>
               <div className="mb-3">
                 <label
                   htmlFor="exampleInputPassword1"
                   className="form-label"
                   style={{ color: "#0275d8", fontWeight: 900 }}
+                  title="type in superSecret"
                 >
                   password
                 </label>
 
-                <input type="password" className="form-control" id="password" />
+                <input
+                  type="password"
+                  className="form-control"
+                  id="password"
+                  title="type in superSecret"
+                />
               </div>
 
               <button
@@ -79,6 +91,16 @@ const Login = () => {
                 LOG IN
               </button>
             </form>
+            <div>
+              <p id="enterWithUserCredentials">
+                enter credentials below to access
+              </p>
+              <p id="credentialsToEnter">
+                email: testymctesterson@gmail.com
+                <br />
+                password: superSecret
+              </p>
+            </div>
           </div>
         </div>
       </div>

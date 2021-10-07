@@ -4,6 +4,21 @@ body {
   letter-spacing: 1.3px;
 }
 
+#enterWithUserCredentials {
+  font-variant: small-caps;
+  margin-top: 13px;
+  font-weight: bold;
+  text-align: center;
+  font-size: small;
+}
+
+#credentialsToEnter {
+  font-size: x-small;
+  margin-left: 119px;
+
+  margin-top: -11px;
+}
+
 button#loginBtn.btn.btn-primary:focus,
 input#email.form-control:focus,
 input#password.form-control:focus,
@@ -32,6 +47,55 @@ button.btn.btn-primary {
 
 a {
   text-decoration: none !important;
+}
+
+/*MEDIA QUERIES FOR USER CREDENTIALS ON LOGIN PAGE*/
+@media only screen and (max-width: 1354px) {
+  #credentialsToEnter {
+    margin-left: 115px;
+  }
+}
+
+@media only screen and (max-width: 1308px) {
+  #credentialsToEnter {
+    margin-left: 108px;
+  }
+}
+
+@media only screen and (max-width: 1242px) {
+  #credentialsToEnter {
+    margin-left: 97px;
+  }
+}
+
+@media only screen and (max-width: 1162px) {
+  #credentialsToEnter {
+    margin-left: 83px;
+  }
+}
+
+@media only screen and (max-width: 1082px) {
+  #credentialsToEnter {
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 1008px) {
+  #credentialsToEnter {
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (max-width: 914px) {
+  #credentialsToEnter {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #credentialsToEnter {
+    margin-left: 20px;
+  }
 }
 
 /*MEDIA QUERIES IN SIDEBAR.js*/
