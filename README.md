@@ -28,7 +28,6 @@ Still, it involves vigorous exceptional communication - and, coding is now part 
 <p align="center"><img src="images/latoniamertica-gawk.png" width="100%" /title="Selfie by La'Tonia Mertica" ></p>
 <br>
 <br>
-<br>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
