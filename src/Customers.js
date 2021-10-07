@@ -155,6 +155,7 @@ const Customers = () => {
                   paddingTop: 25,
                   paddingBottom: 13,
                 }}
+                id="custHeader"
               >
                 CUSTOMERS
               </h1>
@@ -322,6 +323,7 @@ const Customers = () => {
                   paddingTop: 10,
                   paddingBottom: 10,
                 }}
+                id="addCust"
               >
                 add customer below
               </h1>

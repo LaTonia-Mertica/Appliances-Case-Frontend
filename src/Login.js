@@ -74,6 +74,7 @@ const Login = () => {
                 type="submit"
                 className="btn btn-primary"
                 style={{ width: "100%" }}
+                id="loginBtn"
               >
                 LOG IN
               </button>
