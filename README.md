@@ -1,4 +1,4 @@
-# Appliances-Case-Backend
+# Appliances-Case-Frontend
 
 ###### <a href="https://www.latoniamertica.dev/Appliances-Case-Frontend/#/" target="_blank">visit Appliances Case Frontend by La'Tonia Mertica</a>
 <br>
@@ -24,7 +24,7 @@ Far from perfect, and likely destined to never truly achieve the level and statu
 Still, it involves vigorous exceptional communication - and, coding is now part of my fierce means to say some things.
 <br>
 <br>
-
+<br>
 <p align="center"><img src="images/latoniamertica-gawk.png" width="100%" /title="Selfie by La'Tonia Mertica" ></p>
 <br>
 <br>
