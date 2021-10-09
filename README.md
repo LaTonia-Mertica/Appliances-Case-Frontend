@@ -9,7 +9,7 @@
 - Navbar.js designs the navbar<br>
 - Sidebar.js designs and implements an unordered list to navigate to other pages<br>
 
-**note** the magic of components is their nature/function of reusability<br>
+**NOTE** the magic of components is their nature/function of reusability<br>
 
 **NEXT STEP**
 1. accept new/different users through login ... not simply pre-set Testy McTesterson
