@@ -8,8 +8,8 @@
 - Login.js allows login using pre-set credentials using useHistory and Link imported from react-router-dom, event.target.insert label between these two dots.value, and push()<br>
 - Navbar.js designs the navbar<br>
 - Sidebar.js designs and implements an unordered list to navigate to other pages<br>
-<br>
-**note** the magic of components is their nature/function of reusability
+
+**note** the magic of components is their nature/function of reusability<br>
 
 **NEXT STEP**
 1. accept new/different users through login ... not simply pre-set Testy McTesterson
