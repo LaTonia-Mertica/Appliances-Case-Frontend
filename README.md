@@ -5,7 +5,7 @@
 **HOW WORKS**
 - App.js implements where endpoints take users<br>
 - Customers.js adds customer through useEffect, useState, useRef, and localStorage<br>
-- Login.js allows login using pre-set credentials using useHistory and Link imported from react-router-dom, event.target.<insert label>.value, and push()<br>
+- Login.js allows login using pre-set credentials using useHistory and Link imported from react-router-dom, event.target.insert label between these two dots.value, and push()<br>
 - Navbar.js designs the navbar<br>
 -Sidebar.js designs and implements an unordered list to navigate to other pages<br> 
 **note** the magic of components is their nature/function of reusability
