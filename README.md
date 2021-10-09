@@ -1,4 +1,18 @@
 # Appliances Case Frontend
+*part of full stack project using components each as a separate component file - Customers, Login, Navbar, and Sidebar ... and App.js to map routes aka endpoints - note: best practice to have default/base route such as /Login at end of routes listed with more specific routes such as /customers listed before it to avoid router misreading endpoints i.e. stopping at '/' when needs to complete full path*
+<br>
+
+**HOW WORKS**
+- App.js implements where endpoints take users<br>
+- Customers.js adds customer through useEffect, useState, useRef, and localStorage<br>
+- Login.js allows login using pre-set credentials using useHistory and Link imported from react-router-dom, event.target.<insert label>.value, and push()<br>
+- Navbar.js designs the navbar<br>
+-Sidebar.js designs and implements an unordered list to navigate to other pages<br> 
+**note** the magic of components is their nature/function of reusability
+
+**NEXT STEP**
+1. accept new/different users through login ... not simply pre-set Testy McTesterson
+2. display logged in status
 
 ###### <a href="https://www.latoniamertica.dev/Appliances-Case-Frontend/#/" target="_blank">visit Appliances Case Frontend by La'Tonia Mertica</a>
 <br>
